@@ -77,5 +77,14 @@ const add = (a, b) => {
   const mod = (a, b) => {
     return a % b;
   };
-  
+   
+ 
+ let historyArr=[];
+
+ const calcHistoryFunction=()=>{
+    historyArr.push(result);
+    console.log(historyArr);
+ }
+
+ calcHistoryFunction();
 
