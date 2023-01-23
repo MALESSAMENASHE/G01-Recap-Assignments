@@ -21,25 +21,25 @@ while (1) {
     }else if(!isNaN(numerized[0]) && !isNaN(numerized[2])){
         switch (numerized[1]) {
     case '+':
-        // add(Number(input[0]),Number(input[2]))
+        add(Number(input[0]),Number(input[2]))
         break;
     case '-':
-        // sub(Number(input[0]),Number(input[2]))
+        sub(Number(input[0]),Number(input[2]))
         break;
     case '/':
-        // sub(Number(input[0]),Number(input[2]))
+        sub(Number(input[0]),Number(input[2]))
         break;
     case '*':
-        // mul(Number(input[0]),Number(input[2]))
+        mul(Number(input[0]),Number(input[2]))
         break;
     case '^':
-        // power(Number(input[0]),Number(input[2]))
+        power(Number(input[0]),Number(input[2]))
         break;
     case '%':
-        // mod(Number(input[0]),Number(input[2]))
+        mod(Number(input[0]),Number(input[2]))
         break;
     case 'sqr':
-        // square(Number(input[0]))
+        square(Number(input[0]))
         break;
     default:
         alert('invalid operator! try again');
@@ -50,45 +50,6 @@ while (1) {
     }
 }
 
-
-
-
-
-
-// switch (calcArr[1]) {
-//     case '+':
-//         // add(Number(input[0]),Number(input[2]))
-//         calculator()
-//         break;
-//     case '-':
-//         // sub(Number(input[0]),Number(input[2]))
-//         calculator()
-//         break;
-//     case '/':
-//         // sub(Number(input[0]),Number(input[2]))
-//         calculator()
-//         break;
-//     case '*':
-//         // mul(Number(input[0]),Number(input[2]))
-//         calculator()
-//         break;
-//     case '^':
-//         // power(Number(input[0]),Number(input[2]))
-//         calculator()
-//         break;
-//     case '%':
-//         // mod(Number(input[0]),Number(input[2]))
-//         calculator()
-//         break;
-//     case 'sqr':
-//         // square(Number(input[0]))
-//         calculator()
-//         break;
-//     default:
-//         alert('invalid operator! try again');
-//         calculator()
-//         break;
-// }
 
 const add = (a, b) => {
     return a + b;
